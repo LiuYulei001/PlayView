@@ -1,0 +1,4 @@
+target 'PlayView' do
+pod 'SDWebImage'
+pod 'Masonry'
+end

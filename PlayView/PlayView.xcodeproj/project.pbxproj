@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36997D0E1FF5CEC300EBCC2A /* AILoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997CFD1FF5CEC300EBCC2A /* AILoadingView.m */; };
+		36997D0F1FF5CEC300EBCC2A /* CLGCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997CFF1FF5CEC300EBCC2A /* CLGCDTimerManager.m */; };
+		36997D101FF5CEC300EBCC2A /* CLPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D011FF5CEC300EBCC2A /* CLPlayerMaskView.m */; };
+		36997D111FF5CEC300EBCC2A /* CLPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D031FF5CEC300EBCC2A /* CLPlayerView.m */; };
+		36997D121FF5CEC300EBCC2A /* CLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D051FF5CEC300EBCC2A /* CLSlider.m */; };
+		36997D2D1FF6080000EBCC2A /* PlayBottomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D2C1FF6080000EBCC2A /* PlayBottomToolBar.m */; };
+		36997D301FF61D8800EBCC2A /* PlayTopToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D2F1FF61D8800EBCC2A /* PlayTopToolBar.m */; };
+		36997D441FF62DA000EBCC2A /* CLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D3A1FF62DA000EBCC2A /* CLModel.m */; };
+		36997D451FF62DA000EBCC2A /* Date.json in Resources */ = {isa = PBXBuildFile; fileRef = 36997D3C1FF62DA000EBCC2A /* Date.json */; };
+		36997D461FF62DA000EBCC2A /* YLTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D3F1FF62DA000EBCC2A /* YLTableViewVC.m */; };
+		36997D471FF62DA000EBCC2A /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D421FF62DA000EBCC2A /* PlayerCell.m */; };
+		36997D481FF62DA000EBCC2A /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36997D431FF62DA000EBCC2A /* PlayerCell.xib */; };
+		36997D521FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D4B1FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.m */; };
+		36997D531FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D4D1FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.m */; };
+		36997D541FF63A4A00EBCC2A /* UIView+CLSetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D4F1FF63A4A00EBCC2A /* UIView+CLSetRect.m */; };
+		36997D551FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36997D511FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.m */; };
+		369C4DBF1FF4B90F00F5087F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C4DBE1FF4B90F00F5087F /* AppDelegate.m */; };
+		369C4DC51FF4B90F00F5087F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369C4DC31FF4B90F00F5087F /* Main.storyboard */; };
+		369C4DC71FF4B90F00F5087F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369C4DC61FF4B90F00F5087F /* Assets.xcassets */; };
+		369C4DCA1FF4B90F00F5087F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369C4DC81FF4B90F00F5087F /* LaunchScreen.storyboard */; };
+		369C4DCD1FF4B90F00F5087F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C4DCC1FF4B90F00F5087F /* main.m */; };
+		369C4DD71FF4B90F00F5087F /* PlayViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C4DD61FF4B90F00F5087F /* PlayViewTests.m */; };
+		369C4DE21FF4B90F00F5087F /* PlayViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C4DE11FF4B90F00F5087F /* PlayViewUITests.m */; };
+		693EE692C99F3F765A7E5D05 /* libPods-PlayView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1EF400B7358BF69B89D1B9 /* libPods-PlayView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		369C4DD31FF4B90F00F5087F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369C4DB21FF4B90F00F5087F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369C4DB91FF4B90F00F5087F;
+			remoteInfo = PlayView;
+		};
+		369C4DDE1FF4B90F00F5087F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369C4DB21FF4B90F00F5087F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369C4DB91FF4B90F00F5087F;
+			remoteInfo = PlayView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36997CFC1FF5CEC300EBCC2A /* AILoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILoadingView.h; sourceTree = "<group>"; };
+		36997CFD1FF5CEC300EBCC2A /* AILoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AILoadingView.m; sourceTree = "<group>"; };
+		36997CFE1FF5CEC300EBCC2A /* CLGCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGCDTimerManager.h; sourceTree = "<group>"; };
+		36997CFF1FF5CEC300EBCC2A /* CLGCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGCDTimerManager.m; sourceTree = "<group>"; };
+		36997D001FF5CEC300EBCC2A /* CLPlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlayerMaskView.h; sourceTree = "<group>"; };
+		36997D011FF5CEC300EBCC2A /* CLPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPlayerMaskView.m; sourceTree = "<group>"; };
+		36997D021FF5CEC300EBCC2A /* CLPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlayerView.h; sourceTree = "<group>"; };
+		36997D031FF5CEC300EBCC2A /* CLPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPlayerView.m; sourceTree = "<group>"; };
+		36997D041FF5CEC300EBCC2A /* CLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSlider.h; sourceTree = "<group>"; };
+		36997D051FF5CEC300EBCC2A /* CLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSlider.m; sourceTree = "<group>"; };
+		36997D2B1FF6080000EBCC2A /* PlayBottomToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayBottomToolBar.h; sourceTree = "<group>"; };
+		36997D2C1FF6080000EBCC2A /* PlayBottomToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayBottomToolBar.m; sourceTree = "<group>"; };
+		36997D2E1FF61D8800EBCC2A /* PlayTopToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayTopToolBar.h; sourceTree = "<group>"; };
+		36997D2F1FF61D8800EBCC2A /* PlayTopToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTopToolBar.m; sourceTree = "<group>"; };
+		36997D391FF62DA000EBCC2A /* CLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLModel.h; sourceTree = "<group>"; };
+		36997D3A1FF62DA000EBCC2A /* CLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLModel.m; sourceTree = "<group>"; };
+		36997D3C1FF62DA000EBCC2A /* Date.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Date.json; sourceTree = "<group>"; };
+		36997D3E1FF62DA000EBCC2A /* YLTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewVC.h; sourceTree = "<group>"; };
+		36997D3F1FF62DA000EBCC2A /* YLTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewVC.m; sourceTree = "<group>"; };
+		36997D411FF62DA000EBCC2A /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		36997D421FF62DA000EBCC2A /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
+		36997D431FF62DA000EBCC2A /* PlayerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
+		36997D4A1FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		36997D4B1FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		36997D4C1FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		36997D4D1FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		36997D4E1FF63A4A00EBCC2A /* UIView+CLSetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CLSetRect.h"; sourceTree = "<group>"; };
+		36997D4F1FF63A4A00EBCC2A /* UIView+CLSetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CLSetRect.m"; sourceTree = "<group>"; };
+		36997D501FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLPlayerRotation.h"; sourceTree = "<group>"; };
+		36997D511FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLPlayerRotation.m"; sourceTree = "<group>"; };
+		369C4DBA1FF4B90F00F5087F /* PlayView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C4DBD1FF4B90F00F5087F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		369C4DBE1FF4B90F00F5087F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		369C4DC41FF4B90F00F5087F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		369C4DC61FF4B90F00F5087F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		369C4DC91FF4B90F00F5087F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		369C4DCB1FF4B90F00F5087F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369C4DCC1FF4B90F00F5087F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		369C4DD21FF4B90F00F5087F /* PlayViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C4DD61FF4B90F00F5087F /* PlayViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewTests.m; sourceTree = "<group>"; };
+		369C4DD81FF4B90F00F5087F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369C4DDD1FF4B90F00F5087F /* PlayViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C4DE11FF4B90F00F5087F /* PlayViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewUITests.m; sourceTree = "<group>"; };
+		369C4DE31FF4B91000F5087F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1EF400B7358BF69B89D1B9 /* libPods-PlayView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93B6058852FEBEF336C7D8 /* Pods-PlayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayView/Pods-PlayView.release.xcconfig"; sourceTree = "<group>"; };
+		E9D1742A01E2799AFEA7BD6F /* Pods-PlayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayView/Pods-PlayView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369C4DB71FF4B90F00F5087F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693EE692C99F3F765A7E5D05 /* libPods-PlayView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DCF1FF4B90F00F5087F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DDA1FF4B90F00F5087F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36997CFB1FF5CEC300EBCC2A /* CLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				36997D491FF63A4A00EBCC2A /* Category */,
+				36997CFC1FF5CEC300EBCC2A /* AILoadingView.h */,
+				36997CFD1FF5CEC300EBCC2A /* AILoadingView.m */,
+				36997CFE1FF5CEC300EBCC2A /* CLGCDTimerManager.h */,
+				36997CFF1FF5CEC300EBCC2A /* CLGCDTimerManager.m */,
+				36997D001FF5CEC300EBCC2A /* CLPlayerMaskView.h */,
+				36997D011FF5CEC300EBCC2A /* CLPlayerMaskView.m */,
+				36997D041FF5CEC300EBCC2A /* CLSlider.h */,
+				36997D051FF5CEC300EBCC2A /* CLSlider.m */,
+				36997D2B1FF6080000EBCC2A /* PlayBottomToolBar.h */,
+				36997D2C1FF6080000EBCC2A /* PlayBottomToolBar.m */,
+				36997D2E1FF61D8800EBCC2A /* PlayTopToolBar.h */,
+				36997D2F1FF61D8800EBCC2A /* PlayTopToolBar.m */,
+				36997D021FF5CEC300EBCC2A /* CLPlayerView.h */,
+				36997D031FF5CEC300EBCC2A /* CLPlayerView.m */,
+			);
+			path = CLPlayer;
+			sourceTree = "<group>";
+		};
+		36997D371FF62DA000EBCC2A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36997D381FF62DA000EBCC2A /* Model */,
+				36997D3B1FF62DA000EBCC2A /* Recourse */,
+				36997D3D1FF62DA000EBCC2A /* TableViewVC */,
+				36997D401FF62DA000EBCC2A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36997D381FF62DA000EBCC2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36997D391FF62DA000EBCC2A /* CLModel.h */,
+				36997D3A1FF62DA000EBCC2A /* CLModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36997D3B1FF62DA000EBCC2A /* Recourse */ = {
+			isa = PBXGroup;
+			children = (
+				36997D3C1FF62DA000EBCC2A /* Date.json */,
+			);
+			path = Recourse;
+			sourceTree = "<group>";
+		};
+		36997D3D1FF62DA000EBCC2A /* TableViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				36997D3E1FF62DA000EBCC2A /* YLTableViewVC.h */,
+				36997D3F1FF62DA000EBCC2A /* YLTableViewVC.m */,
+			);
+			path = TableViewVC;
+			sourceTree = "<group>";
+		};
+		36997D401FF62DA000EBCC2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36997D411FF62DA000EBCC2A /* PlayerCell.h */,
+				36997D421FF62DA000EBCC2A /* PlayerCell.m */,
+				36997D431FF62DA000EBCC2A /* PlayerCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36997D491FF63A4A00EBCC2A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				36997D4E1FF63A4A00EBCC2A /* UIView+CLSetRect.h */,
+				36997D4F1FF63A4A00EBCC2A /* UIView+CLSetRect.m */,
+				36997D4A1FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.h */,
+				36997D4B1FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.m */,
+				36997D4C1FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.h */,
+				36997D4D1FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.m */,
+				36997D501FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.h */,
+				36997D511FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		369C4DB11FF4B90F00F5087F = {
+			isa = PBXGroup;
+			children = (
+				369C4DBC1FF4B90F00F5087F /* PlayView */,
+				369C4DD51FF4B90F00F5087F /* PlayViewTests */,
+				369C4DE01FF4B90F00F5087F /* PlayViewUITests */,
+				369C4DBB1FF4B90F00F5087F /* Products */,
+				6980B4ADF8121A6CFB1B2736 /* Pods */,
+				E7DA711BC2A2608132143A0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		369C4DBB1FF4B90F00F5087F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369C4DBA1FF4B90F00F5087F /* PlayView.app */,
+				369C4DD21FF4B90F00F5087F /* PlayViewTests.xctest */,
+				369C4DDD1FF4B90F00F5087F /* PlayViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369C4DBC1FF4B90F00F5087F /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				36997CFB1FF5CEC300EBCC2A /* CLPlayer */,
+				36997D371FF62DA000EBCC2A /* Home */,
+				369C4DBD1FF4B90F00F5087F /* AppDelegate.h */,
+				369C4DBE1FF4B90F00F5087F /* AppDelegate.m */,
+				369C4DC31FF4B90F00F5087F /* Main.storyboard */,
+				369C4DC61FF4B90F00F5087F /* Assets.xcassets */,
+				369C4DC81FF4B90F00F5087F /* LaunchScreen.storyboard */,
+				369C4DCB1FF4B90F00F5087F /* Info.plist */,
+				369C4DCC1FF4B90F00F5087F /* main.m */,
+			);
+			path = PlayView;
+			sourceTree = "<group>";
+		};
+		369C4DD51FF4B90F00F5087F /* PlayViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				369C4DD61FF4B90F00F5087F /* PlayViewTests.m */,
+				369C4DD81FF4B90F00F5087F /* Info.plist */,
+			);
+			path = PlayViewTests;
+			sourceTree = "<group>";
+		};
+		369C4DE01FF4B90F00F5087F /* PlayViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				369C4DE11FF4B90F00F5087F /* PlayViewUITests.m */,
+				369C4DE31FF4B91000F5087F /* Info.plist */,
+			);
+			path = PlayViewUITests;
+			sourceTree = "<group>";
+		};
+		6980B4ADF8121A6CFB1B2736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1742A01E2799AFEA7BD6F /* Pods-PlayView.debug.xcconfig */,
+				8E93B6058852FEBEF336C7D8 /* Pods-PlayView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7DA711BC2A2608132143A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D1EF400B7358BF69B89D1B9 /* libPods-PlayView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369C4DB91FF4B90F00F5087F /* PlayView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C4DE61FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayView" */;
+			buildPhases = (
+				449AC946927DD1CA870CBC42 /* [CP] Check Pods Manifest.lock */,
+				369C4DB61FF4B90F00F5087F /* Sources */,
+				369C4DB71FF4B90F00F5087F /* Frameworks */,
+				369C4DB81FF4B90F00F5087F /* Resources */,
+				F223539E085DB3C9B03D9457 /* [CP] Embed Pods Frameworks */,
+				B2B4D6677C17B4B4146E1E2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayView;
+			productName = PlayView;
+			productReference = 369C4DBA1FF4B90F00F5087F /* PlayView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		369C4DD11FF4B90F00F5087F /* PlayViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C4DE91FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayViewTests" */;
+			buildPhases = (
+				369C4DCE1FF4B90F00F5087F /* Sources */,
+				369C4DCF1FF4B90F00F5087F /* Frameworks */,
+				369C4DD01FF4B90F00F5087F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369C4DD41FF4B90F00F5087F /* PBXTargetDependency */,
+			);
+			name = PlayViewTests;
+			productName = PlayViewTests;
+			productReference = 369C4DD21FF4B90F00F5087F /* PlayViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		369C4DDC1FF4B90F00F5087F /* PlayViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C4DEC1FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayViewUITests" */;
+			buildPhases = (
+				369C4DD91FF4B90F00F5087F /* Sources */,
+				369C4DDA1FF4B90F00F5087F /* Frameworks */,
+				369C4DDB1FF4B90F00F5087F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369C4DDF1FF4B90F00F5087F /* PBXTargetDependency */,
+			);
+			name = PlayViewUITests;
+			productName = PlayViewUITests;
+			productReference = 369C4DDD1FF4B90F00F5087F /* PlayViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369C4DB21FF4B90F00F5087F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Rainy;
+				TargetAttributes = {
+					369C4DB91FF4B90F00F5087F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					369C4DD11FF4B90F00F5087F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 369C4DB91FF4B90F00F5087F;
+					};
+					369C4DDC1FF4B90F00F5087F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 369C4DB91FF4B90F00F5087F;
+					};
+				};
+			};
+			buildConfigurationList = 369C4DB51FF4B90F00F5087F /* Build configuration list for PBXProject "PlayView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 369C4DB11FF4B90F00F5087F;
+			productRefGroup = 369C4DBB1FF4B90F00F5087F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369C4DB91FF4B90F00F5087F /* PlayView */,
+				369C4DD11FF4B90F00F5087F /* PlayViewTests */,
+				369C4DDC1FF4B90F00F5087F /* PlayViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369C4DB81FF4B90F00F5087F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C4DCA1FF4B90F00F5087F /* LaunchScreen.storyboard in Resources */,
+				369C4DC71FF4B90F00F5087F /* Assets.xcassets in Resources */,
+				369C4DC51FF4B90F00F5087F /* Main.storyboard in Resources */,
+				36997D481FF62DA000EBCC2A /* PlayerCell.xib in Resources */,
+				36997D451FF62DA000EBCC2A /* Date.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DD01FF4B90F00F5087F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DDB1FF4B90F00F5087F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		449AC946927DD1CA870CBC42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B4D6677C17B4B4146E1E2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayView/Pods-PlayView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F223539E085DB3C9B03D9457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayView/Pods-PlayView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369C4DB61FF4B90F00F5087F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36997D541FF63A4A00EBCC2A /* UIView+CLSetRect.m in Sources */,
+				36997D111FF5CEC300EBCC2A /* CLPlayerView.m in Sources */,
+				36997D551FF63A4A00EBCC2A /* UIViewController+CLPlayerRotation.m in Sources */,
+				36997D531FF63A4A00EBCC2A /* UITabBarController+CLPlayerRotation.m in Sources */,
+				36997D461FF62DA000EBCC2A /* YLTableViewVC.m in Sources */,
+				36997D521FF63A4A00EBCC2A /* UINavigationController+CLPlayerRotation.m in Sources */,
+				36997D471FF62DA000EBCC2A /* PlayerCell.m in Sources */,
+				369C4DCD1FF4B90F00F5087F /* main.m in Sources */,
+				36997D441FF62DA000EBCC2A /* CLModel.m in Sources */,
+				36997D101FF5CEC300EBCC2A /* CLPlayerMaskView.m in Sources */,
+				36997D0E1FF5CEC300EBCC2A /* AILoadingView.m in Sources */,
+				36997D0F1FF5CEC300EBCC2A /* CLGCDTimerManager.m in Sources */,
+				369C4DBF1FF4B90F00F5087F /* AppDelegate.m in Sources */,
+				36997D2D1FF6080000EBCC2A /* PlayBottomToolBar.m in Sources */,
+				36997D301FF61D8800EBCC2A /* PlayTopToolBar.m in Sources */,
+				36997D121FF5CEC300EBCC2A /* CLSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DCE1FF4B90F00F5087F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C4DD71FF4B90F00F5087F /* PlayViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C4DD91FF4B90F00F5087F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C4DE21FF4B90F00F5087F /* PlayViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		369C4DD41FF4B90F00F5087F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369C4DB91FF4B90F00F5087F /* PlayView */;
+			targetProxy = 369C4DD31FF4B90F00F5087F /* PBXContainerItemProxy */;
+		};
+		369C4DDF1FF4B90F00F5087F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369C4DB91FF4B90F00F5087F /* PlayView */;
+			targetProxy = 369C4DDE1FF4B90F00F5087F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		369C4DC31FF4B90F00F5087F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369C4DC41FF4B90F00F5087F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		369C4DC81FF4B90F00F5087F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369C4DC91FF4B90F00F5087F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369C4DE41FF4B91000F5087F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		369C4DE51FF4B91000F5087F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369C4DE71FF4B91000F5087F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1742A01E2799AFEA7BD6F /* Pods-PlayView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83X7K5GN7;
+				INFOPLIST_FILE = PlayView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		369C4DE81FF4B91000F5087F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E93B6058852FEBEF336C7D8 /* Pods-PlayView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83X7K5GN7;
+				INFOPLIST_FILE = PlayView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		369C4DEA1FF4B91000F5087F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayView.app/PlayView";
+			};
+			name = Debug;
+		};
+		369C4DEB1FF4B91000F5087F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayView.app/PlayView";
+			};
+			name = Release;
+		};
+		369C4DED1FF4B91000F5087F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayView;
+			};
+			name = Debug;
+		};
+		369C4DEE1FF4B91000F5087F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rainy.PlayViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369C4DB51FF4B90F00F5087F /* Build configuration list for PBXProject "PlayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C4DE41FF4B91000F5087F /* Debug */,
+				369C4DE51FF4B91000F5087F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C4DE61FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C4DE71FF4B91000F5087F /* Debug */,
+				369C4DE81FF4B91000F5087F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C4DE91FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C4DEA1FF4B91000F5087F /* Debug */,
+				369C4DEB1FF4B91000F5087F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C4DEC1FF4B91000F5087F /* Build configuration list for PBXNativeTarget "PlayViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C4DED1FF4B91000F5087F /* Debug */,
+				369C4DEE1FF4B91000F5087F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369C4DB21FF4B90F00F5087F /* Project object */;
+}
